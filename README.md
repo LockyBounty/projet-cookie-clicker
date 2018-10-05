@@ -1,0 +1,1 @@
+Exercice du cookie cliquable
