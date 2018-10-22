@@ -11,16 +11,11 @@ affMulti.innerHTML=`${scoreMulti}`;
 let plusUn = (event) => {
     console.log('Incrementation OK');
     let multip = score * scoreMulti;
-    if (scoreMulti!==1){
-        scoreOutput = multip;
-        
-    }else{
-        
-        scoreOutput = score++; 
-    };
+
+    scoreOutput = score++;
     
     
-    
+
     aff.innerHTML=`${scoreOutput}`;
     
 }

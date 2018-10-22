@@ -41,6 +41,7 @@ body {
 .blob {
     display:flex;
     flex-direction: column;
+    
 }
 
 input {
