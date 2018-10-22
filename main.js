@@ -1,34 +1,29 @@
-let aff= document.querySelector("#affichage");
+let aff= document.querySelector("#boutonPlus");
 let score=0;
 let scoreOutput=0;
-let affMulti= document.querySelector("#multiplicateur");
+let multiplier= document.querySelector("#multiply");
 let scoreMulti=1;
-affMulti.innerHTML=`${scoreMulti}`;
+multiplier.value=`${scoreMulti}`;
 
 
 
 
 let plusUn = (event) => {
-    console.log('Incrementation OK');
-    let multip = score * scoreMulti;
-    if (scoreMulti!==1){
-        scoreOutput = multip;
         
-    }else{
-        
-        scoreOutput = score++; 
-    };
+        scoreOutput = score*this.scoreMulti; 
+    
+        console.log(`${scoreOutput}`);
     
     
-    
-    aff.innerHTML=`${scoreOutput}`;
+    aff.value=`${scoreOutput}`;
     
 }
 
-let augmenterMultiplicateur = (event) => {
+let increaseMultiplicateur = (event) => {
     console.log('multiplication OK');
     scoreMulti++;
-    affMulti.innerHTML=`${scoreMulti}`;
+    multiplier.value=`${scoreMulti}`;
+
 }
 
 
