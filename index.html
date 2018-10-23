@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Cookie clicker</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     
@@ -11,13 +11,21 @@
 <body>
     <div class="containerCentre">
         <div class="blob">
-             <input type="button" id="boutonPlus" href="#" value="1er bouton +" /><br />
-             <div id="affichage">0</div>
+
+            <button  id="boutonPlus" href="#" value="0"></button>
+
         </div>
         <div class="blob">
-                <input type="button" id="boutonMulti" href="#" value="2eme bouton *" /><br />
-                <div id="multiplicateur">0</div>
-           </div>
+            <button  id="multiply" href="#" value="1"></button>
+        </div>
+        <div class="blob">
+            <button  id="autoclick" href="#" value="Buy an autoclick for 200"></button>
+        </div>
+        <div class="blob">
+            <button id="bonus" href="#" value="Bonus" ></button>
+            <!--javais travaille avec "value" quand j utilisais input button, 
+                par après, j ai travaille avec innerHTML donc plus besoin de value avec .value-->
+        </div>
 
     </div>
     <script src="main.js"></script>
