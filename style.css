@@ -41,8 +41,17 @@ body {
 .blob {
     display:flex;
     flex-direction: column;
+    
 }
-
+.blob button {
+    width: 150px;
+    height: 60px;
+    color: black;
+    border-radius: 5px;
+    
+    box-shadow: 0px 0px gray;
+}
+/*
 input {
     flex:1;
     text-decoration: none;
@@ -53,4 +62,4 @@ input {
     box-shadow: 5px 5px gray;
     background-color: #0264A8;
 
-}
+}*/
